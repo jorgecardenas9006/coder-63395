@@ -1,0 +1,162 @@
+[
+    {
+      "id": "A1B2C3",
+      "nombre": "The Legend of Zelda: Breath of the Wild",
+      "categoria": "Aventura",
+      "consola": {
+        "plataformas": ["Nintendo Switch"],
+        "tipos": ["Físico", "Digital"]
+      },
+      "edadRecomendada": 12,
+      "precio": 59.99,
+      "adicionales": {
+        "multiplayer": false,
+        "expansiones": ["The Champion's Ballad", "The Master Trials"]
+      },
+      "img": "https://example.com/zelda-breath-of-the-wild.jpg"
+    },
+    {
+      "id": "D4E5F6",
+      "nombre": "God of War: Ragnarok",
+      "categoria": "Acción",
+      "consola": {
+        "plataformas": ["PlayStation 5"],
+        "tipos": ["Físico", "Digital"]
+      },
+      "edadRecomendada": 18,
+      "precio": 69.99,
+      "adicionales": {
+        "multiplayer": false,
+        "edicionEspecial": true
+      },
+      "img": "https://example.com/god-of-war-ragnarok.jpg"
+    },
+    {
+      "id": "G7H8I9",
+      "nombre": "Minecraft",
+      "categoria": "Sandbox",
+      "consola": {
+        "plataformas": ["Nintendo Switch", "PlayStation 5", "Xbox Series X"],
+        "tipos": ["Físico", "Digital"]
+      },
+      "edadRecomendada": 7,
+      "precio": 29.99,
+      "adicionales": {
+        "multiplayer": true,
+        "modsDisponibles": true
+      },
+      "img": "https://example.com/minecraft.jpg"
+    },
+    {
+      "id": "J1K2L3",
+      "nombre": "Call of Duty: Modern Warfare II",
+      "categoria": "Shooter",
+      "consola": {
+        "plataformas": ["PlayStation 5"],
+        "tipos": ["Físico", "Digital"]
+      },
+      "edadRecomendada": 18,
+      "precio": 69.99,
+      "adicionales": {
+        "multiplayer": true,
+        "temporadas": ["Season 1", "Season 2"]
+      },
+      "img": "https://example.com/cod-modern-warfare-ii.jpg"
+    },
+    {
+      "id": "M4N5O6",
+      "nombre": "Animal Crossing: New Horizons",
+      "categoria": "Simulación",
+      "consola": {
+        "plataformas": ["Nintendo Switch"],
+        "tipos": ["Físico", "Digital"]
+      },
+      "edadRecomendada": 3,
+      "precio": 49.99,
+      "adicionales": {
+        "multiplayer": true,
+        "expansiones": ["Happy Home Paradise"]
+      },
+      "img": "https://example.com/animal-crossing-new-horizons.jpg"
+    },
+    {
+      "id": "P7Q8R9",
+      "nombre": "FIFA 24",
+      "categoria": "Deportes",
+      "consola": {
+        "plataformas": ["PlayStation 5"],
+        "tipos": ["Físico", "Digital"]
+      },
+      "edadRecomendada": 3,
+      "precio": 59.99,
+      "adicionales": {
+        "multiplayer": true,
+        "modoCarrera": true
+      },
+      "img": "https://example.com/fifa-24.jpg"
+    },
+    {
+      "id": "S1T2U3",
+      "nombre": "Hogwarts Legacy",
+      "categoria": "RPG",
+      "consola": {
+        "plataformas": ["Xbox Series X"],
+        "tipos": ["Físico", "Digital"]
+      },
+      "edadRecomendada": 12,
+      "precio": 69.99,
+      "adicionales": {
+        "multiplayer": false,
+        "edicionColeccionista": true
+      },
+      "img": "https://example.com/hogwarts-legacy.jpg"
+    },
+    {
+      "id": "V4W5X6",
+      "nombre": "Elden Ring",
+      "categoria": "RPG",
+      "consola": {
+        "plataformas": ["PlayStation 5"],
+        "tipos": ["Físico", "Digital"]
+      },
+      "edadRecomendada": 18,
+      "precio": 59.99,
+      "adicionales": {
+        "multiplayer": true,
+        "expansiones": ["Shadow of the Erdtree"]
+      },
+      "img": "https://example.com/elden-ring.jpg"
+    },
+    {
+      "id": "Y7Z8A9",
+      "nombre": "Super Mario Odyssey",
+      "categoria": "Plataformas",
+      "consola": {
+        "plataformas": ["Nintendo Switch"],
+        "tipos": ["Físico", "Digital"]
+      },
+      "edadRecomendada": 3,
+      "precio": 59.99,
+      "adicionales": {
+        "multiplayer": false,
+        "idiomas": ["Inglés", "Español", "Francés"]
+      },
+      "img": "https://example.com/super-mario-odyssey.jpg"
+    },
+    {
+      "id": "B1C2D3",
+      "nombre": "Cyberpunk 2077",
+      "categoria": "RPG",
+      "consola": {
+        "plataformas": ["PlayStation 5"],
+        "tipos": ["Físico", "Digital"]
+      },
+      "edadRecomendada": 18,
+      "precio": 49.99,
+      "adicionales": {
+        "multiplayer": false,
+        "expansiones": ["Phantom Liberty"]
+      },
+      "img": "https://example.com/cyberpunk-2077.jpg"
+    }
+]
