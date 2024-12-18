@@ -307,6 +307,15 @@ const getProductById = (id) => {
         }, 3000);
     });
 }
+const getProductByCategory = (categoria) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const product = productos.filter(product => product.categoria === categoria);
+            resolve(product);
+        }, 3000);
+    });
+}
 
 export { getProducts };
 export { getProductById };
+export { getProductByCategory };

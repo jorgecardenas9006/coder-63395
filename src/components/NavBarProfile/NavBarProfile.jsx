@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const NavBarProfile = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,15 +36,15 @@ const NavBarProfile = () => {
           aria-labelledby="user-menu-button"
           tabIndex="-1"
         >
-          <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="user-menu-item-0">
-            Perfil
-          </a>
-          <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="user-menu-item-1">
-            Configuraciones
-          </a>
-          <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="user-menu-item-2">
-            Salir
-          </a>
+          <Link to="/profile" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
+            Your Profile
+          </Link>
+          <Link to="/settings" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
+            Settings
+          </Link>
+          <Link to="/sign_out" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
+            Sign out
+          </Link>
         </div>
       )}
     </div>

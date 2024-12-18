@@ -7,22 +7,28 @@ const NavBarList = () => {
   const list = [
     {
       name: 'Inicio',
-      link: '#',
+      link: '/',
       current: true,
     },
     {
-      name: 'Equipo',
-      link: '#',
+      name: 'Productos',
+      link: '/productos',
       current: false,
     },
     {
-      name: 'Proyectos',
-      link: '#',
+      name: 'Categorias',
+      link: '/productos',
+      pages: [
+        {name: 'RPG', link: '/categoria/RPG'}, 
+        {name: 'Simulación', link: '/categoria/Simulación'},
+        {name: 'Deportes', link: '/categoria/Deportes'},
+        {name: 'Shooter', link: '/categoria/Shooter'},
+      ],
       current: false,
     },
     {
       name: 'Cursos',
-      link: '#',
+      link: '/cursos',
       current: false,
     },
   ]
