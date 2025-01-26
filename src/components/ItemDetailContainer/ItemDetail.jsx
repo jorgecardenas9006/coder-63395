@@ -1,5 +1,12 @@
+import { useContext } from "react"
+import { CartContext } from "../../context/CartContext"
+import ItemCount from "../ItemCount/ItemCount"
+
 const ItemDetail = ({ product }) => {
-    console.log(product)
+    const { AddProduct } = useContext(CartContext)
+    const AddProductInCart = (count) => {
+        AddProduct(product, count)
+        }
     return (
       <div key={product.id} className="my-5 flex max-w-4xl mx-auto bg-white shadow-lg rounded-xl overflow-hidden transform transition-all hover:scale-105 hover:shadow-2xl">
           {/* Imagen */}
@@ -21,7 +28,7 @@ const ItemDetail = ({ product }) => {
               {/* Precio y botón */}
               <div className="flex items-center justify-between mt-4">
                   <h1 className="text-gray-700 font-semibold text-2xl">{product.precio}</h1>
-                  <button className="px-6 py-3 bg-indigo-600 text-white text-xs font-bold uppercase rounded-full shadow-lg transition duration-300 transform hover:bg-indigo-700 hover:scale-105 focus:outline-none">Comprar</button>
+                  <ItemCount stock={product.stock} AddProductInCart={AddProductInCart}/>
               </div>
           </div>
       </div>

@@ -13,6 +13,7 @@ const productos = [
         "multiplayer": false,
         "expansiones": ["The Champion's Ballad", "The Master Trials"]
       },
+      "stock": 5,
       "img": "../public/img/zelda.png",
       "descripcion": "En The Legend of Zelda: Breath of the Wild, los jugadores se sumergen en un vasto y dinámico mundo abierto lleno de paisajes impresionantes y misterios por resolver. Como Link, deberás explorar desde verdes praderas hasta montañas nevadas, enfrentándote a enemigos variados y utilizando un arsenal de armas y habilidades únicas. El juego fomenta la creatividad y el ingenio, permitiéndote resolver problemas de múltiples maneras y descubrir secretos en cada rincón de Hyrule mientras trabajas para derrotar al malvado Calamity Ganon."
     },
@@ -30,6 +31,7 @@ const productos = [
         "multiplayer": false,
         "edicionEspecial": true
       },
+      "stock": 3,
       "img": "../public/img/godofwar.png",
       "descripcion": "God of War: Ragnarok lleva a los jugadores al corazón de la mitología nórdica, donde Kratos y su hijo Atreus deben enfrentar un destino inminente. Con un combate visceral y cinematográfico, el juego profundiza en la relación entre padre e hijo, mientras desentrañan secretos de su linaje y enfrentan dioses temibles como Thor y Odin. Los paisajes detallados y la narrativa emocionalmente cargada convierten a esta secuela en una experiencia inolvidable."
     },
@@ -47,6 +49,7 @@ const productos = [
         "multiplayer": true,
         "modsDisponibles": true
       },
+      "stock": 7,
       "img": "../public/img/minecraft.png",
       "descripcion": "Minecraft es el lienzo perfecto para la creatividad, donde los jugadores pueden construir desde casas modestas hasta complejas ciudades flotantes. El modo supervivencia agrega un toque de desafío, exigiendo habilidades de recolección y lucha contra criaturas nocturnas. Con actualizaciones constantes, una vibrante comunidad y opciones multijugador, el juego sigue siendo una experiencia atemporal para todas las edades."
 
@@ -65,6 +68,7 @@ const productos = [
         "multiplayer": true,
         "temporadas": ["Season 1", "Season 2"]
       },
+      "stock": 2,
       "img": "../public/img/callofduty.jpg",
       "descripcion": "Call of Duty: Modern Warfare II redefine el género de disparos en primera persona con una campaña cinematográfica y emocionante que te pone en el corazón de misiones tácticas. Su modo multijugador altamente competitivo presenta nuevos mapas, modos y una personalización avanzada de armas, ofreciendo infinitas horas de acción."
     },
@@ -82,6 +86,7 @@ const productos = [
         "multiplayer": true,
         "expansiones": ["Happy Home Paradise"]
       },
+      "stock": 4,
       "img": "../public/img/animal.jpg",
       "descripcion": "En Animal Crossing: New Horizons, los jugadores pueden escapar a una isla tropical personalizable, interactuar con personajes adorables y recolectar recursos para construir un hogar. El juego ofrece una experiencia relajante con eventos estacionales y actividades multijugador que fomentan la creatividad y la conexión social."
     },
@@ -99,6 +104,7 @@ const productos = [
         "multiplayer": true,
         "modoCarrera": true
       },
+      "stock": 6,
       "img": "../public/img/fifa.png",
       "descripcion": "FIFA 24 eleva la experiencia del fútbol virtual con gráficos realistas, controles refinados y modos inmersivos como Ultimate Team y Carrera. Compite contra amigos o enfréntate a desafíos globales mientras lideras a tu equipo favorito hacia la victoria."
     },
@@ -116,6 +122,7 @@ const productos = [
         "multiplayer": false,
         "edicionColeccionista": true
       },
+      "stock": 10,
       "img": "../public/img/howarts.jpg",
       "descripcion": "Hogwarts Legacy te permite vivir la experiencia definitiva del mundo mágico de Harry Potter. Explora un Hogwarts detallado, aprende hechizos y desentraña una trama cautivadora que te hará sentir parte del universo creado por J.K. Rowling."
     },
@@ -133,6 +140,7 @@ const productos = [
         "multiplayer": true,
         "expansiones": ["Shadow of the Erdtree"]
       },
+      "stock": 8,
       "img": "../public/img/lord.jpg",
       "descripcion": "Elden Ring es un viaje inolvidable por un vasto mundo abierto creado por Hidetaka Miyazaki y George R.R. Martin. Enfréntate a enemigos formidables, resuelve misterios profundos y forja tu destino en este épico juego de rol."
     },
@@ -150,6 +158,7 @@ const productos = [
         "multiplayer": false,
         "idiomas": ["Inglés", "Español", "Francés"]
       },
+      "stock": 9,
       "img": "../public/img/mario.jpg",
       "descripcion": "Super Mario Odyssey lleva a los jugadores a través de mundos vibrantes y llenos de sorpresas mientras Mario intenta rescatar a Peach de las garras de Bowser. Usa la habilidad de captura de Cappy para poseer objetos y enemigos, desbloqueando nuevas formas de resolver puzzles y superar desafíos."
     },
@@ -167,6 +176,7 @@ const productos = [
         "multiplayer": false,
         "expansiones": ["Phantom Liberty"]
       },
+      "stock": 1,
       "img": "../public/img/cyberpunk.jpg",
       "descripcion": "En Cyberpunk 2077, los jugadores exploran Night City, una metrópolis vibrante y llena de posibilidades. Con un enfoque en narrativa profunda, personalización de personajes y acción de alto impacto, el juego ofrece una visión provocadora de un futuro distópico."
     },
@@ -183,6 +193,7 @@ const productos = [
       "adicionales": {
         "expansiones": ["Hearts of Stone", "Blood and Wine"]
       },
+      "stock": 3,
       "img": "../public/img/witcher.png",
       "descripcion": "The Witcher 3: Wild Hunt es un galardonado juego de rol que narra las aventuras de Geralt de Rivia, un cazador de monstruos en busca de su hija adoptiva Ciri. El juego ofrece un vasto mundo abierto lleno de paisajes detallados, criaturas místicas y misiones desafiantes. Con expansiones como 'Hearts of Stone' y 'Blood and Wine', la experiencia de juego se enriquece con nuevas historias, enemigos y tierras para explorar. Perfecto para los amantes de la narrativa y la fantasía."
     },
@@ -200,6 +211,7 @@ const productos = [
         "multiplayer": true,
         "temporadas": ["Season 4", "Season 5"]
       },
+      "stock": 10,
       "img": "../public/img/fortnite.png",
       "descripcion": "Fortnite es un fenómeno cultural en el género Battle Royale, conocido por su dinámica de construcción y sus emocionantes combates. Los jugadores compiten en un entorno siempre cambiante debido a sus temporadas temáticas, como la épica 'Season 4' y 'Season 5'. Con modos creativos y de supervivencia, Fortnite ofrece una experiencia única para jugadores de todas las edades, aunque requiere habilidades estratégicas y reflejos rápidos para sobrevivir."
     },
@@ -216,6 +228,7 @@ const productos = [
       "adicionales": {
         "multiplayer": false
       },
+      "stock": 2,
       "img": "../public/img/resident.jpg",
       "descripcion": "Resident Evil 4 Remake reinventa un clásico del género de terror. En este juego, sigues a Leon S. Kennedy en una misión para rescatar a la hija del presidente, enfrentándote a hordas de enemigos aterradores y desentrañando oscuros secretos en un pueblo remoto. Con gráficos actualizados y mecánicas mejoradas, este remake mantiene la esencia del original mientras eleva la tensión y el desafío para los fanáticos del terror."
     },
@@ -233,6 +246,7 @@ const productos = [
         "multiplayer": true,
         "pasesDeBatalla": true
       },
+      "stock": 0,
       "img": "../public/img/legends.jpg",
       "descripcion": "League of Legends es uno de los juegos multijugador más populares del mundo. Como jugador, te sumerges en combates estratégicos por equipos, controlando campeones únicos con habilidades especiales. Con constantes actualizaciones, eventos y un sistema de pases de batalla, ofrece una experiencia competitiva inmersiva. Ideal para quienes buscan acción intensa y tácticas avanzadas."
     },
