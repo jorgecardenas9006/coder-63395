@@ -9,7 +9,7 @@ const CartWidget = () => {
     <Link to="/cart" className='flex m-4' onClick={() => console.log('Cart')}>
       <FcShop className="text-white text-4xl" />
       <div className='w-8 h-8 bg-transparent border-4 border-red-200 rounded-full flex items-center justify-center'>
-        <p className='text-red-200'>{ TotalItems() }</p>
+        <p className='text-red-200'>{ TotalItems() !=0 ? TotalItems() : 0 }</p>
       </div>
     </Link>
   )

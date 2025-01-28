@@ -28,7 +28,12 @@ const ItemDetail = ({ product }) => {
               {/* Precio y botón */}
               <div className="flex items-center justify-between mt-4">
                   <h1 className="text-gray-700 font-semibold text-2xl">{product.precio}</h1>
-                  <ItemCount stock={product.stock} AddProductInCart={AddProductInCart}/>
+                  {
+                        product.stock === 0 ? (
+                            <button className="bg-gray-300 text-gray-600 font-semibold px-4 py-2 rounded-lg cursor-not-allowed" disabled></button>) : (
+                                <ItemCount stock={product.stock} AddProductInCart={AddProductInCart}/>)
+                  }
+
               </div>
           </div>
       </div>

@@ -40,9 +40,25 @@ const CartProvider = ({ children }) => {
         return totalPrice;
     };
 
+    const SumarProduct = (product) => {
+        const newCart = [...cart];
+        const index = newCart.findIndex((productCart) => productCart.id === product.id);
+        if(product.stock === newCart[index].quantity){
+            return;
+        }
+        newCart[index].quantity += 1;
+        setCart(newCart);
+    };
+
+    const RestarProduct = (product) => {
+        const newCart = [...cart];
+        const index = newCart.findIndex((productCart) => productCart.id === product.id);
+        newCart[index].quantity -= 1;
+        setCart(newCart);
+    };
 
     return (
-        <CartContext.Provider value={{ cart, AddProduct, RemoveProduct, ClearCart, TotalItems, TotalPrice, TotalPriceForProduct, ClearCart }}>
+        <CartContext.Provider value={{ cart, AddProduct, RemoveProduct, ClearCart, TotalItems, TotalPrice, TotalPriceForProduct, SumarProduct, RestarProduct}}>
             {children}
         </CartContext.Provider>
     );
