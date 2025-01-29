@@ -1,9 +1,19 @@
-import { createContext, useState } from 'react';
+import { use } from 'react';
+import { createContext, useState, useEffect } from 'react';
 
 const CartContext = createContext();
 
 const CartProvider = ({ children }) => {
-    const [cart, setCart] = useState([]);
+    const cartStorage = JSON.parse(localStorage.getItem('cart-ecommerce')) || [];
+    const [cart, setCart] = useState(
+        cartStorage ? cartStorage : []
+    );
+    useEffect(() => {
+        localStorage.setItem('cart-ecommerce', JSON.stringify(cart));
+        return () => {
+            localStorage.setItem('cart-ecommerce', JSON.stringify(cart));
+        }
+    }, [cart]);
 
     const AddProduct = (product, quantity) => {
         const index = cart.findIndex((productCart) => productCart.id === product.id);
